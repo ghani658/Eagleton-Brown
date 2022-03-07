@@ -1,0 +1,188 @@
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+main {
+    overflow: hidden;
+}
+  
+section {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+  
+body {
+    color: #2b2f52;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+  
+ul {
+    list-style: none;
+}
+  
+a,
+a:hover {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: inherit;
+}
+
+a.primary-link {
+    text-decoration: none;
+    color: #464b69;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.navbar-brand img {
+    max-width: 257px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav-menu a {
+    color: #000;
+}
+
+ul.nav-items {
+    display: flex;
+}
+
+.nav-menu .nav-items li a {
+    color: #2e3047;
+    padding: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu .nav-items li:last-child a {
+    padding-right: 0;
+}
+.banner {
+    height: calc(100vh - 83px);   
+}
+.slick-list, .slick-track {
+    height: 100%;
+}
+.slider {
+    background-size: cover !important;
+    height: 100%;
+}
+.slider h1 {
+    color: #fff;
+    font-size: 4.5rem;
+    line-height: 52px;
+}
+.slider p {
+    color: #fff;
+    font-size: 23px;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 10;
+    outline: none;
+}
+
+.slick-prev {
+    left: 82px;
+}
+
+.slick-next {
+    right: 82px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 47px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img.logo {
+    max-width: 290px;
+}
+
+.primary-btn {
+    background: #7b6b30;
+    color: #fff;
+    padding: 8px 24px;
+    border: 2px solid #787154;
+    border-radius: 10px;
+}
+
+.primary-heading {
+    color: #2b2f52;
+    font-size: 2.5rem;
+    position: relative;
+    padding: 0 25px;
+}
+.primary-heading span {
+    position: relative;
+    z-index: 2;
+}
+.primary-heading:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    bottom: 3px;
+    left: 0;
+    background: #eeeeee;
+    z-index: 1;
+}
+.video-section video {
+    max-width: 694px;
+    width: 100%;
+}
