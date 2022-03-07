@@ -186,3 +186,24 @@ img.logo {
     max-width: 694px;
     width: 100%;
 }
+footer {
+    background: #2b2f52;
+}
+.footer-logo {
+    max-width: 290px;
+    width: 100%;
+    display: block;
+}
+.w-h {
+    color: #fff;
+    font-weight: normal;
+    display: table;
+    border-bottom: 1px solid;
+}
+.f-nav li {
+    margin-bottom: 5px;
+}
+.f-nav li a {
+    color: #fff;
+    font-size: 1rem;
+}
