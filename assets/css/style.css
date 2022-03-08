@@ -96,6 +96,9 @@ ul.nav-items {
 .banner {
     height: calc(100vh - 83px);   
 }
+.sub.banner {
+    height: auto;   
+}
 .slick-list, .slick-track {
     height: 100%;
 }
@@ -103,10 +106,18 @@ ul.nav-items {
     background-size: cover !important;
     height: 100%;
 }
+.sub .slider {
+    height: 390px;
+}
 .slider h1 {
     color: #fff;
     font-size: 4.5rem;
     line-height: 52px;
+}
+.sub .slider h1 {
+    color: #2b2f52;
+    line-height: 1;
+    font-size: 4.2rem;
 }
 .slider p {
     color: #fff;
@@ -151,7 +162,7 @@ ul.nav-items {
 }
 
 img.logo {
-    max-width: 290px;
+    max-width: 390px;
 }
 
 .primary-btn {
@@ -188,14 +199,15 @@ img.logo {
 }
 footer {
     background: #2b2f52;
+    color: #fbfeff;
 }
 .footer-logo {
-    max-width: 290px;
+    max-width: 210px;
     width: 100%;
     display: block;
 }
 .w-h {
-    color: #fff;
+    color: #fbfeff;
     font-weight: normal;
     display: table;
     border-bottom: 1px solid;
@@ -204,6 +216,42 @@ footer {
     margin-bottom: 5px;
 }
 .f-nav li a {
-    color: #fff;
+    color: #fbfeff;
     font-size: 1rem;
+}
+.ic-div i {
+    font-size: 22px;
+}
+.ic-div p {
+    font-size: 13px;
+}
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+}
+footer .bottom-footer p {
+    font-size: 0.6rem;
+    line-height: 1.4;
+}
+.bg-section {
+    background: #2b2f52;
+    margin: 100px 0;
+    color: #fff;
+}
+.bg-section p {
+    font-size: 14px;
+}
+.bg-img {
+    margin: -79px 0;
+}
+.team-m .primary-btn {
+    padding: 9px 50px;
+}
+.team-info {
+    min-height: 146px;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+    }
 }
