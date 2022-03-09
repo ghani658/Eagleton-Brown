@@ -250,6 +250,39 @@ footer .bottom-footer p {
 .team-info {
     min-height: 146px;
 }
+.bg-section.gra {
+    background: transparent;
+    color: #757575;
+    margin: 0;
+    position: relative;
+}
+.bg-section.gra:before {
+    content: '';
+    background: rgb(43,47,82);
+    background: linear-gradient(90deg, rgba(43,47,82,1) 38%, rgba(255,255,255,1) 38%);
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    top: 124px;
+}
+.team-p {
+    font-size: 23px;
+}
+.team-txt .ic-div {
+    font-size: 18px;
+}
+.team-txt .ic-div i {
+    color: #2b2f52;
+}
+.team-txt p {
+    margin-bottom: 20px;
+}
+.team-txt p:last-child {
+    margin-bottom: 0;
+}
+.top-shadow {
+    box-shadow: 1px -1px 4px 0 #ccc;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 1310px;
