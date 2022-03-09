@@ -283,6 +283,61 @@ footer .bottom-footer p {
 .top-shadow {
     box-shadow: 1px -1px 4px 0 #ccc;
 }
+.pr-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(0 0 0 / 60%);
+}
+.pr-section:hover .pr-name {
+    display: none;
+}
+.pr-detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(255 255 255 / 55%);
+}
+.pr-section:hover .pr-detail {
+    display: flex;
+}
+.pr-list li {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 20px;
+}
+.pr-list li::before {
+    content: '.';
+    position: absolute;
+    left: 0;
+    line-height: 15px;
+}
+.content {
+    color: #707070;
+}
+.list {
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.list li {
+    margin-bottom: 8px;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 1310px;
