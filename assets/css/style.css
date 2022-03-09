@@ -167,7 +167,7 @@ img.logo {
 
 .primary-btn {
     background: #7b6b30;
-    color: #fff;
+    color: #fff !important;
     padding: 8px 24px;
     border: 2px solid #787154;
     border-radius: 10px;
@@ -341,8 +341,197 @@ footer .bottom-footer p {
 .f-12 p {
     font-size: 13px;
 }
+.mobile-menu {
+    display: none;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 100%;
+}
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 1310px;
+    }
+}
+@media (max-width: 1200px) {
+    .nav-menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }    
+    .mobile-menu a.menu-icon {
+        background: #2b2f52;
+        padding: 9px 15px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .mobile-menu ul {
+        position: absolute;
+        width: 275px;
+        right: 0px;
+        background: #2b2f52;
+        top: 75px;
+        padding: 0;
+        display: none;
+        z-index: 100;
+        margin: 0;
+    }
+
+    .mobile-menu ul li {
+        float: left;
+        width: 100%;
+    }
+
+    .mobile-menu ul li a {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 10px;
+        width: 100%;
+        float: left;
+        line-height: normal;
+    }
+
+    .mobile-menu ul li a:hover {
+        background: #122055;
+        color: #fff;
+    }
+
+    .mobile-menu ul li a.call {
+        background: #122055;
+        border-radius: 12px;
+        border: 2px solid #122055;
+        color: #fff;
+        padding: 6px 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        float: left;
+        font-size: 16px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu a.cross {
+        position: absolute;
+        right: 7px;
+        z-index: 10;
+        top: 7px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .bg-section {
+        margin: 0;
+    }
+    .bg-img {
+        margin: 0;
+    }
+    .bg-section.team-info .container {
+        padding-left: 0;
+    }
+    .team-m .primary-btn {
+        padding: 9px 0px;
+        width: 100%;
+    }
+    .team-info h4 {
+        font-size: 1rem;
+    }
+    .bg-section.gra:before {
+        display: none;
+    }
+    .pr-section .pr-name {
+        display: none;
+    }
+    .pr-section .pr-detail {
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .slider h1 {
+        font-size: 3rem;
+    }
+    .slider p {
+        font-size: 16px;
+    }
+    img.logo {
+        max-width: 250px;
+    }
+    .top-footer {
+        text-align: center;
+    }
+    .w-h {
+        margin: 0 auto;
+    }
+    .footer-logo {
+        max-width: 210px;
+        width: 100%;
+        display: block;
+        margin: 0 auto 38px;
+    }
+    .top-footer .c-info {
+        text-align: left;
+    }
+    .top-footer .c-info .d-flex {
+        justify-content: center;
+    }
+    .social-media.text-right {
+        text-align: center !important;
+    }
+    .bottom-footer .d-flex {
+        flex-direction: column;
+    }
+    .sub .slider {
+        height: 308px;
+    }
+    .sub .slider h1 {
+        font-size: 3rem;
+    }
+    .team-m .primary-btn {
+        padding: 9px 0px;
+        width: 200px;
+    }
+    .team-txt .primary-heading {
+        font-size: 1.5rem;
+    }
+    .team-p {
+        font-size: 17px;
+    }
+    .team-txt .ic-div {
+        font-size: 14px;
+    }
+    .team-txt p {
+        font-size: 13px;
+    }
+    .bg-section.team-info .container {
+        padding: 10px;
+    }
+    .bg-section.team-info h2.mb-3 {
+        font-size: 1.5rem;
+         margin-top: 19px;
+    }
+}
+@media (max-width: 500px) {
+    img.logo {
+        max-width: 200px;
+    }
+    .sub .slider {
+        height: 230px;
+    }
+    .sub .slider h1 {
+        font-size: 2rem;
+        line-height: 38px;
+    }
+    .pr-detail h3 {
+        font-size: 1rem;
+    }
+    .pr-list li {
+        font-size: 13px;
     }
 }
